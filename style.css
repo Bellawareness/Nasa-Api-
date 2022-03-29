@@ -42,10 +42,13 @@ h3 {
 
 
 
-
 .row{
   	margin:20px;
     text-align: center; 
+	  justify-content: center;
+  align-content: center;
+	display:flex;
+	 flex-direction: column;
 }
 
 
@@ -108,14 +111,6 @@ button:active {
   	padding:16px 24px;
 
 }
-
-
-
-
-
-
-
-
 
 
 
