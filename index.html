@@ -19,26 +19,24 @@
 
     <form id=survey-form1 >
       <label for="year" >Year</label>
-      <input type="text" id="year" name="year" value="YYYY"><br><br>
+      <input type="text" id="year" name="year" placeholder="YYYY"><br><br>
       <label for="year">Month:</label>
-      <input type="text" id="month" name="month"value="MM" ><br><br>
+      <input type="text" id="month" name="month"placeholder="MM"><br><br>
       <label for="year">Day:</label>
-      <input type="text" id="day" name="day" value="DD"><br><br>
+      <input type="text" id="day" name="day" placeholder="DD" oninvalid="this.setCustomValidity('Please enter 2 digits')"
+  oninput="this.setCustomValidity('')"><br><br>
       
         <button type="button" id="myBtn">
  <input type="submit" value="Submit" id="submit" onclick="newDate()" onclick="show_hide() " ></button>
     </form>   
 
 							   <div class= "row"> 
-<img id="image"  src="nasa.JPG">   
+<img id="image"  src="nasa.JPG"  >   
 								 </div>
 
 
 
 
-
-<!--             <div class= "row">
-        <img id="image" src="nasa.JPG" > -->
 
   
       
